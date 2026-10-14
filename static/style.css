@@ -1,0 +1,192 @@
+
+/* FinSight - Professional Dashboard Theme */
+
+.stApp {
+    background: #f4f7fb;
+    color: #17243b;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Main content area */
+.block-container {
+    max-width: 1250px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* Hide default Streamlit header */
+header[data-testid="stHeader"] {
+    background: transparent;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #101b32;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #edf4ff;
+}
+
+section[data-testid="stSidebar"] div[role="radiogroup"] label {
+    background: #1b2944;
+    border-radius: 9px;
+    padding: 10px 12px;
+    margin-bottom: 7px;
+    border: 1px solid #293956;
+}
+
+/* Main headings */
+h1 {
+    color: #14213d !important;
+    font-weight: 800 !important;
+    letter-spacing: -1px;
+}
+
+h2, h3 {
+    color: #1a2b49 !important;
+    font-weight: 700 !important;
+}
+
+/* Custom dashboard header */
+.hero-card {
+    background: linear-gradient(120deg, #14213d, #175b78);
+    padding: 30px;
+    border-radius: 18px;
+    color: white;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 25px rgba(20, 33, 61, 0.12);
+}
+
+.hero-card h1,
+.hero-card p,
+.hero-card span {
+    color: white !important;
+}
+
+.hero-card p {
+    font-size: 15px;
+    opacity: 0.88;
+}
+
+/* Dashboard metrics */
+.metric-card {
+    background: white;
+    padding: 21px;
+    border-radius: 15px;
+    border: 1px solid #e2e9f3;
+    box-shadow: 0 4px 15px rgba(31, 53, 86, 0.04);
+    min-height: 125px;
+}
+
+.metric-label {
+    color: #64748b;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.metric-value {
+    color: #14213d;
+    font-size: 27px;
+    font-weight: 800;
+}
+
+.metric-note {
+    color: #718096;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Feature cards */
+.feature-card {
+    background: white;
+    border: 1px solid #e2e9f3;
+    border-radius: 14px;
+    padding: 20px;
+    min-height: 155px;
+    margin-bottom: 12px;
+    box-shadow: 0 4px 15px rgba(31, 53, 86, 0.035);
+}
+
+.feature-icon {
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.feature-title {
+    color: #182945;
+    font-size: 16px;
+    font-weight: 750;
+    margin-bottom: 7px;
+}
+
+.feature-desc {
+    color: #65748b;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+/* Buttons */
+.stButton > button,
+.stDownloadButton > button {
+    background: #087f8c;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    min-height: 43px;
+    font-weight: 650;
+    transition: 0.2s ease;
+}
+
+.stButton > button:hover,
+.stDownloadButton > button:hover {
+    background: #066773;
+    color: white;
+    border: none;
+}
+
+/* Upload area */
+[data-testid="stFileUploader"] {
+    background: white;
+    border: 1px dashed #a9bfd4;
+    border-radius: 14px;
+    padding: 15px;
+}
+
+/* Expanders and containers */
+div[data-testid="stExpander"] {
+    background: white;
+    border: 1px solid #e2e9f3;
+    border-radius: 11px;
+}
+
+/* Dividers */
+hr {
+    border-color: #e2e9f3;
+}
+
+/* Status labels */
+.status-pill {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: #e0f2fe;
+    color: #075985;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* Mobile spacing */
+@media (max-width: 768px) {
+    .block-container {
+        padding: 1rem;
+    }
+
+    .hero-card {
+        padding: 20px;
+    }
+
+    .metric-card {
+        margin-bottom: 10px;
+    }
+}

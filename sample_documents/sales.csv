@@ -1,0 +1,5 @@
+invoice_number,quantity,unit_price,total_amount
+INV001,2,500,1000
+INV002,3,200,500
+INV003,5,100,500
+INV004,2,750,1500

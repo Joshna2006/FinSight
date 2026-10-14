@@ -1,0 +1,4 @@
+invoice_number,quantity,unit_price,total_amount
+INV101,2,100,200
+INV102,3,150,450
+INV101,2,100,200

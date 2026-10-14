@@ -1,0 +1,4 @@
+Invoice Number: INV201
+Date: 2026-10-10
+Total Amount: 1500
+Payment Status: Paid
